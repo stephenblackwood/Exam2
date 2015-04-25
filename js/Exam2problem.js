@@ -3,7 +3,6 @@ function MenuSelect()
 {
     if (document.getElementById("menu").value == "Add New Category")
     {
-        // document.getElementById("sectiontop").style.visibility = "hidden";
         document.getElementById("section1").style.visibility = "visible";
         document.getElementById("section2").style.visibility = "hidden";
 	document.getElementById("section3").style.visibility = "hidden";
@@ -12,7 +11,6 @@ function MenuSelect()
     }
     else if (document.getElementById("menu").value == "Update Category Description")
     {
-        // document.getElementById("sectiontop").style.visibility = "hidden";
         document.getElementById("section1").style.visibility = "hidden";
         document.getElementById("section2").style.visibility = "visible";
 	document.getElementById("section3").style.visibility = "hidden";
@@ -22,7 +20,6 @@ function MenuSelect()
     
     else if (document.getElementById("menu").value == "Delete Category")
     {
-        // document.getElementById("sectiontop").style.visibility = "hidden";
         document.getElementById("section1").style.visibility = "hidden";
         document.getElementById("section2").style.visibility = "hidden";
 	document.getElementById("section3").style.visibility = "visible";
@@ -31,7 +28,6 @@ function MenuSelect()
     }
     else if (document.getElementById("menu").value == "Display Category List")
     {
-        // document.getElementById("sectiontop").style.visibility = "hidden";
         document.getElementById("section1").style.visibility = "hidden";
         document.getElementById("section2").style.visibility = "hidden";
 	document.getElementById("section3").style.visibility = "hidden";
@@ -41,7 +37,6 @@ function MenuSelect()
     
     else if (document.getElementById("menu").value == "About Page Author")
     {
-        // document.getElementById("sectiontop").style.visibility = "hidden";
         document.getElementById("section1").style.visibility = "hidden";
         document.getElementById("section2").style.visibility = "hidden";
 	document.getElementById("section3").style.visibility = "hidden";
@@ -51,7 +46,6 @@ function MenuSelect()
 
     else
     {
-        // document.getElementById("sectiontop").style.visibility = "hidden";
         document.getElementById("section1").style.visibility = "hidden";
         document.getElementById("section2").style.visibility = "hidden";
 	document.getElementById("section3").style.visibility = "hidden";
