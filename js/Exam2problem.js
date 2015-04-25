@@ -269,14 +269,3 @@ function OperationResult3(output)
 	}
     }
 //------------------------------------------------------
-
-function SAIC()
-
-{
-window.open("http://www.saic.edu")
-}
-
-function MadWork()
-{
-window.open("http:www.madelaineblackwood.com")
-}
