@@ -1,0 +1,31 @@
+h1{font-family: sans-serif; text-align: center}
+h2{font-family: sans-serif; text-align: center}
+h3{font-family: sans-serif; text-align: inherit}
+
+.example {font-style: italic; color: blue; }
+
+#Exam2Pic{padding: 5px; width: 600px; position: relative; top: inherit;}
+
+section.selection {display: inline-block;visibility: visible; position: absolute;}
+
+section.section1 {display: inline-block; visibility: hidden; background-color:#A8A8FF; padding: 5px; width: 600px; position: absolute; top: inherit;} 
+
+section.section2 {display: inline-block; visibility: hidden; background-color: #A3A3CC; padding: 10px; width: 600px; position: absolute; top: inherit;}
+
+section.section3 {display: inline-block; visibility: hidden; background-color:#A1A1AA; padding: 5px; width: 600px; position: absolute; top: inherit;}
+
+section.section4 {display: inline-block; visibility: hidden; background-color:#A8A8FF; padding: 5px; width: 600px; position: absolute; top: inherit;}
+
+section.section5 {display: inline-block; visibility: hidden; background-color: #A3A3CC; padding: 10px; width: 600px; position: absolute; top: inherit; text-align: justify}
+
+table {border-collapse: collapse;}
+
+table, th, td {border: 1px solid black; background-color: #D8D8D8 ; }
+
+th {text-align: center; padding: 5px;}
+
+td {text-align: center; padding: 5px;}
+
+
+
+#footer { background-color: transparent ; color: #000000 ; text-align: center; padding: 5px; width: 600px;   position: inherit; left: 0; bottom: 0; right: 0;}

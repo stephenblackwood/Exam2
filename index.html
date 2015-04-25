@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Exam 2</title> 
+    
+<link rel="stylesheet" type="text/css" href="styles/Exam2problem.css" /> 
+    
+<script src="js/Exam2problem.js"></script>
+
+</head>
+
+<body>
+    
+<section id= "title">
+<h1>Exam 2 Assignment</h1>
+<h2>Stephen Blackwood</h2>
+</section>
+
+<hr>
+<section id= "selection" class="selection">
+<select onchange="MenuSelect()" id="menu">   
+    <option>Please Select Display Choice</option>
+    <option>Add New Category</option>
+    <option>Update Category Description</option>
+    <option>Delete Category</option>
+    <option>Display Category List</option>
+    <option>About Page Author</option>
+</select>
+</section>
+<br>
+<br>
+<br>
+<hr> 
+<section id="section5" class="section5">
+    <h2>About The Author</h2>
+<p> Stephen Blackwood was born in Lexington, Kentucky and has lived in Ohio, Alabama, Georgia, South Carolina, and Tennessee.  He is a graduate of Middle Tennessee University
+with a BS in Finance.  Currently he working for ProAssurance in Underwriting Operations as a Senior Business Analyst and Systems Developer; he is also working toward a BS degree in Information Systems at the
+University of Alabama at Birmingham.  His hobbies include Traveling, Cycling, and Photography (shown below is his favorite photo from his portfolio).  He is the father of
+Madelaine Brook Blackwood - Artist and soon to be graduate from The School of The Art Institute of Chicago, the "SAIC" button will take you to SAIC's website.  Examples of her work
+are on her website, click on the "MadWork" button below to go to her site.</p>
+
+<button onclick="SAIC()">SAIC</button>
+<button onclick="MadWork()">MadWork</button>
+
+    <h3>Favorite Vacation Spots</h2>    
+        <ol>
+            <h4>Copenhagen, Denmark</h3>
+            <h4>Vienna, Austria</h3>
+            <h4>Montreal, Canada</h3>
+            <h4>San Francisco, CA, USA</h3>
+            <h4>Chicago, IL, USA</h3>
+        </ol>
+<img src="images/PortHoleToGehryForWeb.jpg" id="Exam2Pic">
+</section>
+<br>
+</section> 
+<section id= "section1" class= "section1">
+<br>
+<h2>Add New Category</h2>
+<br>
+<label>Please enter the Category Name: </label>
+<input type="text" id="categoryName">
+<br>
+<br>
+<label>Please enter the Category Description: </label>
+<input type="text" id="categoryDescription">
+<br>
+<br>
+<button onclick="CreateCategory()" id="newCategory">Add a New Category</button>
+<br>
+<br>
+<label id="result">The operation's result will display here.</label>
+</section>
+
+<section id= "section2" class= "section2">
+<br>
+<h2>Update Category Description</h2>
+<br>
+<label>Please Enter Category: </label>
+<input type="number" id="catID">
+<label class="example">Please Enter Existing Category ID in Numeric Form.</label>
+<br>
+<br>
+<label>Please Enter New Description: </label>
+<input type="text" id="catDescription">
+<button onclick="UpdateCategoryDescription()" id="updateCatDescription">Update Category Description</button>
+<br>
+<br>
+<label id="result2">The operation's result will display here.</label>
+</section>
+
+<section id= "section3" class= "section3">
+<br>
+<h2>Delete Category</h2>
+<br>
+<label>Please enter Category ID: </label>
+<input type="text" id="deleteCategoryID">
+<label class="example">Category ID must an Integer Value</label>
+<br>
+<br>
+<button onclick="DeleteCategoryID()" id="deleteCustomer">Delete Category ID</button>
+<br>
+<br>
+<label id="result3">The operation's result will display here.</label>
+</section>
+
+<section id="section4" class="section4">
+<br>
+<h3>Get Category List</h3>
+<button onclick= "GetCategoryList()">Display Category List</button>
+<br>
+<br>
+<h3>Category List</h3>
+    <div id="CategoryListTableHeader">
+            
+        <table cellpadding = "10" border = "2">
+            <tr>
+            <td width = "80" align="center"><b>Category ID</b></td>
+            <td width = "100" align="center"><b>Category Name</b></td>
+            <td width = "100" align="center"><b>Category Description</b></td>
+            </tr>
+        </table>
+        <label id="CategoryListTable"></label>
+    <div id="footer">
+        <p>
+            <pre>&copy Stephen Blackwood    contact information: <a href= "mailto:sbb1106@uab.edu">sbb1106@uab.edu</a></pre>
+        </p>
+    </div>
+
+
+
+</body>
+</html>
